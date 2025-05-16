@@ -1,0 +1,24 @@
+# Ignore IDE/project files
+.idea/
+*.iml
+
+# Ignore OS junk
+.DS_Store
+Thumbs.db
+
+# Binary/executables
+*.exe
+
+# Secrets (keep in mind if you store real tokens)
+*.pem
+*.crt
+*.key
+*.env
+*.bak
+secrets.yaml
+secret*.yaml
+
+# Logs & temporary files
+*.log
+*.tmp
+*.bak
